@@ -1,11 +1,17 @@
 ---
-
+import logoNavbar from '../../assets/logoNavbar.png'
 ---
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/quienes-somos">About</a></li>
-    <li><a href="/contacto">Contact</a></li>
+<nav class="flex justify-between bg-white">
+  <a href="/"><img src={ logoNavbar.src } alt="Logo Barra de navegacion" class="pl-10"/></a>
+
+  <ul class="flex space-x-7 bg-white m-10">
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/contacto">Contacto</a></li>
+    <li><a href="/quienes-somos">Quienes somos</a></li>
+    <li><a href="/beneficios">Beneficios</a></li>
+    <li><a href="/secretarias">Secretarias</a></li>
+    <li><a href="/boletines">Boletines</a></li>
   </ul>
 </nav>
+
