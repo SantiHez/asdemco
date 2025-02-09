@@ -1,7 +1,27 @@
 ---
 import Layout from './../layouts/Layout.astro';
+import quienesSomos from '../assets/quienesSomos.jpg'
 ---
 
 <Layout title="Quienes somos - ASDEMCO">
-    <h1>Contacto</h1>
+    <h1>Quienes somos</h1>
+
+    <h2>¿qué es ASDEMCO?</h2>
+
+    <div class="text-center">
+
+        <p>ASDEMCO es la asociación de empleados Comfama, fundada en Medellín el 10 de octubre del 2010 por un grupo de empleados de la empresa interesados en actuar propositivamente para el beneficio colectivo, desde una perspectiva que aporte ideas y experiencias que contribuyan a la realidad cambiante de Comfama y su política organizacional
+        ASDEMCO es una asociación sin ánimo de lucro establecida legalmente; con lineamientos y fines específicos, que trabaja por la capacitación y acompañamiento de los empleados, estimulandolos a que asuman como actores principales los procesos de crecimiento y fortalecimiento de Comfama. Por tanto, su esencia se basa en la deliberación objetiva y propositiva, para cooperar en la solución de los inconvenientes de la Empresa, el trabajo en general y las condiciones individuales de los empleados. Así mismo, ASDEMCO se esfuerza en comprender los procesos de transformación y complejidad del mundo del trabajo, para dirigir sus acciones a estos nuevos escenarios.</p>
+
+        <img src={ quienesSomos.src } alt="Quienes Somos"/>
+
+        <button class="bg-blue-700 rounded-md">Convención colectiva</button>
+
+    </div>
+
+    <button class="bg-blue-700 rounded-md">Estatutos ASDEMCO</button>
+    
+
+
+
 </Layout>

@@ -1,0 +1,25 @@
+{
+    "boletines":[
+        {
+            "titulo": "Boletín 1",
+            "descripcion": "Boletín de prueba 1",
+            "fecha": "2021-01-01",
+            "archivo": "boletin1.pdf",
+            "imagen": "boletin1.jpg"
+        },
+        {
+            "titulo": "Boletín 2",
+            "descripcion": "Boletín de prueba 2",
+            "fecha": "2021-02-01",
+            "archivo": "boletin2.pdf",
+            "imagen": "boletin2.jpg"
+        },
+        {
+            "titulo": "Boletín 3",
+            "descripcion": "Boletín de prueba 3",
+            "fecha": "2021-03-01",
+            "archivo": "boletin3.pdf",
+            "imagen": "boletin3.jpg"
+        }
+    ]
+}
